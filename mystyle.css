@@ -1,0 +1,42 @@
+body {
+  font-family: 'Cormorant', sans-serif;
+}
+
+h1 {
+  color: #808000;
+  margin-left: 20px;
+  font-size: 60px;
+}
+p {
+  font-size: 20px;
+  max-width: 50%;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 40%; */
+}
+
+input {
+  margin-bottom: 20px;
+  background-color: #ea899a;
+  width: 600px;
+}
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+
+  margin-bottom: 20px;
+  background-color: #ea899a;
+  width: 600px;
+  font-family: 'Cormorant', sans-serif;
+  text-align: center;
+  padding: 5px;
+  border-radius: 20px;
+}
